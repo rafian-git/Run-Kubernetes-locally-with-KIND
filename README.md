@@ -100,5 +100,10 @@ Create a *service* object named `demo-port-forwarding.yaml` with the following c
 		selector:
 			  app: demo-app
 
-To apply the configuration 
+To apply the configuration in detached mode
 `kubectl port-forward service/demo-app -n demo-namespace 15073:15073 &`
+
+
+To check logs of a pod
+`kubectl logs -f demo-app-67b696c99-klthg -n demo-namespace`
+*replace* "demo-app-77f85d7fd5-9sbbf " *with your pod name*
