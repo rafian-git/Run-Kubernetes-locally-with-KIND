@@ -107,3 +107,10 @@ To apply the configuration in detached mode
 To check logs of a pod  
 `kubectl logs -f demo-app-67b696c99-klthg -n demo-namespace`  
 *replace* "demo-app-77f85d7fd5-9sbbf " *with your pod name*
+
+
+## References  
+ [Kind doc](https://kind.sigs.k8s.io/docs/user/quick-start/)  
+ [kubernetes doc](https://kubernetes.io/docs/setup/)  
+ [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)  
+ [30 Second Kubernetes Concepts Cheat Sheet](https://medium.com/hashmapinc/30-second-kubernetes-concepts-cheat-sheet-98ba813194cb)  
